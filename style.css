@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    background-color: #e6ffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px;
+}
+
+#image {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    position: relative;
+    left: 240px;
+}
+
+a {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+    #main {
+        width: 100%;
+    }
+    ul {
+        left: 60px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
